@@ -1,4 +1,5 @@
 node_modules/
+<<<<<<< HEAD
 dist/
 /.vite
 .env
@@ -10,3 +11,16 @@ data/*.db-wal
 dealroom_db.json
 *.log
 .DS_Store
+=======
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+data/*.db
+data/*.sqlite
+*.db
+
+>>>>>>> e1cd425 (chore: initial commit)
